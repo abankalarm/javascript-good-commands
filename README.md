@@ -65,3 +65,14 @@ no double spaces
 4 }
 5 }
 ```
+or ykw lets make this easier
+
+```var firstChar = text.indexOf("World War II");```
+
+The user has entered his first name. The string has been assigned to the variable
+firstName. You want to extract the first character. You already know one way to do it.
+```var firstChar = firstName.slice(0, 1);```
+Here's an alternate way to do it that's more direct.
+```var firstChar = firstName.charAt(0)```
+
+till page 80 :) until tomorrow
